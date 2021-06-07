@@ -30,6 +30,7 @@ linters-settings:
       - octalLiteral
       - whyNoLint
       - wrapperFunc
+      - ioutilDeprecated # disable this rule for go1.15 compatibility
   gocyclo:
     min-complexity: 15
   goimports:
