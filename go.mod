@@ -58,6 +58,7 @@ require (
 	github.com/nishanths/predeclared v0.2.1
 	github.com/pkg/errors v0.9.1
 	github.com/polyfloyd/go-errorlint v0.0.0-20210510181950-ab96adb96fea
+	github.com/quasilyte/go-ruleguard/dsl v0.3.7-0.20210606045906-551c02cfe6d8
 	github.com/ryancurrah/gomodguard v1.2.1
 	github.com/ryanrolds/sqlclosecheck v0.3.0
 	github.com/sanposhiho/wastedassign/v2 v2.0.6
