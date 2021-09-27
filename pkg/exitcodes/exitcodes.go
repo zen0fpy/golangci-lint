@@ -1,5 +1,6 @@
 package exitcodes
 
+// 退出码
 const (
 	Success              = 0
 	IssuesFound          = 1

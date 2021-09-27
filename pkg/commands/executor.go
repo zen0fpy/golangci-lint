@@ -58,7 +58,7 @@ type Executor struct {
 func NewExecutor(version, commit, date string) *Executor {
 	startedAt := time.Now()
 	e := &Executor{
-		cfg:       config.NewDefault(),
+		cfg:       config.NewDefault(), // 默认配置
 		version:   version,
 		commit:    commit,
 		date:      date,

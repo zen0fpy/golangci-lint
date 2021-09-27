@@ -10,9 +10,9 @@ import (
 
 var (
 	// Populated by goreleaser during build
-	version = "master"
-	commit  = "?"
-	date    = ""
+	version = "master"  // 分支
+	commit  = "?"       // github commit id
+	date    = ""        // 提交时间
 )
 
 func main() {
